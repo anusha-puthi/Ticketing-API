@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <repositories>
+    <repository>
+        <id>jcenter</id>
+        <name>JCenter</name>
+        <url>https://jcenter.bintray.com/</url>
+    </repository>
+</repositories>
+
+ <dependencies>
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>5.3.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+   <groupId>junit</groupId>
+   <artifactId>junit</artifactId>
+   <version>4.13</version>
+   <scope>test</scope>
+</dependency>
+<dependency>
+   <groupId>org.junit.jupiter</groupId>
+   <artifactId>junit-jupiter-api</artifactId>
+   <version>5.7.0</version>
+   <scope>test</scope>
+</dependency>
+<dependency>
+   <groupId>org.junit.jupiter</groupId>
+   <artifactId>junit-jupiter-engine</artifactId>
+   <version>5.7.0</version>
+   <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>5.2.0</version>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-jvm-deps</artifactId>
+    <version>1.0.6</version>
+    <scope>provided</scope>
+</dependency>
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit</artifactId>
+    <version>5.2.0</version>
+    <scope>test</scope>
+</dependency>
+<dependency>
+    <groupId>com.github.tomakehurst</groupId>
+    <artifactId>wiremock-jre8</artifactId>
+    <version>2.33.0</version>  
+</dependency>	 
+ </dependencies>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.ticketingsite</groupId>
+  <artifactId>org.ticketingsite.apitests</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+</project>
